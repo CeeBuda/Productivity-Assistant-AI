@@ -43,7 +43,7 @@ function EmailPage() {
       context: string;
       tone: (typeof tones)[number];
       audience: (typeof audiences)[number];
-      sender?: string;
+      sender?: string | undefined;
     }) => fn({ data: input }),
   });
 
