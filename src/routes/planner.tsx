@@ -153,7 +153,7 @@ function PlannerPage() {
                     <div
                       key={i}
                       className={`flex items-center gap-4 rounded-r-xl border-l-2 p-3 ${
-                        priorityStyles[b.priority] ?? priorityStyles.Medium
+                        priorityStyles[b.priority] ?? priorityStyles["Medium"]
                       }`}
                     >
                       <div className="min-w-0 flex-1">
